@@ -14,6 +14,7 @@
 		028E0DB019E61C7F000F303B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028E0DAF19E61C7F000F303B /* Images.xcassets */; };
 		028E0DB319E61C7F000F303B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 028E0DB119E61C7F000F303B /* LaunchScreen.xib */; };
 		028E0DBF19E61C7F000F303B /* AttributedStringTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 028E0DBE19E61C7F000F303B /* AttributedStringTestTests.m */; };
+		028E0DCA19E61D3B000F303B /* AttributedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 028E0DC919E61D3B000F303B /* AttributedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		028E0DB819E61C7F000F303B /* AttributedStringTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttributedStringTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		028E0DBD19E61C7F000F303B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		028E0DBE19E61C7F000F303B /* AttributedStringTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributedStringTestTests.m; sourceTree = "<group>"; };
+		028E0DC819E61D3B000F303B /* AttributedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributedViewController.h; sourceTree = "<group>"; };
+		028E0DC919E61D3B000F303B /* AttributedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				028E0DAF19E61C7F000F303B /* Images.xcassets */,
 				028E0DB119E61C7F000F303B /* LaunchScreen.xib */,
 				028E0DA219E61C7F000F303B /* Supporting Files */,
+				028E0DC819E61D3B000F303B /* AttributedViewController.h */,
+				028E0DC919E61D3B000F303B /* AttributedViewController.m */,
 			);
 			path = AttributedStringTest;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				028E0DCA19E61D3B000F303B /* AttributedViewController.m in Sources */,
 				028E0DAB19E61C7F000F303B /* ViewController.m in Sources */,
 				028E0DA819E61C7F000F303B /* AppDelegate.m in Sources */,
 				028E0DA519E61C7F000F303B /* main.m in Sources */,
@@ -297,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
